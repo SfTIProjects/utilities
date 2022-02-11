@@ -11,7 +11,7 @@
 #       2ii. pmd downloaded lib for performing the analysis using the command line (pmd-bin-6.39.0)      #
 #            Note: if you are using maven you may not need 2ii                                           #
 # 3. subfolder where all the mvn apps will be saved e.g. mvn_apps                                        #
-# 4. subfolder where all the xml results will be saved e.g. xmlreports                                   #
+# 4. subfolder where all the xml results will be saved e.g. xmlanalysisreports                                   #
 # 5. subfolder where all the errorneous java codes will be saved e.g. errorcodeanalysis                  #
 #    Note: this may not be used for the pmd analysis                                                     #
 # 6. subfolder where all the parsed java codes will be saved e.g. completecodeanalysis                   #
@@ -27,11 +27,11 @@
 
 # Using Common Root Directory #
 ###############################
-# python init_root_folder_4_sta_code_ana.py -sld libs -slfp pmdrules.xml -eslf -slfrp pmd-bin-* -eslfr -rn pmd -rd ../my_codesnippet_analysis -ucrd -dln libs -an mvn_apps -xn xmlreports -ecn errorcodeanalysis -ccn completecodeanalysis
+# python init_root_folder_4_sta_code_ana.py -sld libs -slfp pmdrules.xml -eslf -slfrp pmd-bin-* -eslfr -rn pmd -rd ../my_codesnippet_analysis -ucrd -dln libs -an mvn_apps -xn xmlanalysisreports -ecn errorcodeanalysis -ccn completecodeanalysis
 
 # NOT Using Common Root Directory #
 ###################################
-# python init_root_folder_4_sta_code_ana.py -sld libs -slfp pmdrules.xml -eslf -slfrp pmd-bin-* -eslfr -rn pmd -rd ../my_codesnippet_analysis -dln libs -dld /path/to/make/lib/folder -an mvn_apps -ad /path/to/make/mav_apps/folder -xn xmlreports -xd /path/to/make/xmlreports/folder -ecn errorcodeanalysis -ecd /path/to/make/errorcodeanalysis/folder -ccn completecodeanalysis -ccd /path/to/make/completecodeanalysis/folder
+# python init_root_folder_4_sta_code_ana.py -sld libs -slfp pmdrules.xml -eslf -slfrp pmd-bin-* -eslfr -rn pmd -rd ../my_codesnippet_analysis -dln libs -dld /path/to/make/lib/folder -an mvn_apps -ad /path/to/make/mav_apps/folder -xn xmlanalysisreports -xd /path/to/make/xmlanalysisreports/folder -ecn errorcodeanalysis -ecd /path/to/make/errorcodeanalysis/folder -ccn completecodeanalysis -ccd /path/to/make/completecodeanalysis/folder
 
 
 
