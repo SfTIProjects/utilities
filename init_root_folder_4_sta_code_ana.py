@@ -1,5 +1,9 @@
 ##########################################################################################################
-# Script creats the following:                                                                           #
+# User Instruction:                                                                                      #
+# Download the version of the static code analysis libraries e.g., pmd-bin-x.x.x into the libs folder    #
+# Also put the customised or static code analysis checks/rules you want to use into the libs folder      #
+#                                                                                                        #
+# Script Functionalities:                                                                                #
 # 1. main folder e.g pmd, chkstyle, sprtbg                                                               #
 # 2. subfolder where all the library files will be kept e.g. libs                                        #
 #   2a. libraries into the libs folder e.g.,                                                             #
@@ -21,7 +25,6 @@
 # 2nd run it
 # bash init_pmd_root_folder.sh
 
-
 # Using Common Root Directory #
 ###############################
 # python init_root_folder_4_sta_code_ana.py -sld libs -slfp pmdrules.xml -eslf -slfrp pmd-bin-* -eslfr -rn pmd -rd ../my_codesnippet_analysis -ucrd -dln libs -an mvn_apps -xn xmlreports -ecn errorcodeanalysis -ccn completecodeanalysis
@@ -29,6 +32,23 @@
 # NOT Using Common Root Directory #
 ###################################
 # python init_root_folder_4_sta_code_ana.py -sld libs -slfp pmdrules.xml -eslf -slfrp pmd-bin-* -eslfr -rn pmd -rd ../my_codesnippet_analysis -dln libs -dld /path/to/make/lib/folder -an mvn_apps -ad /path/to/make/mav_apps/folder -xn xmlreports -xd /path/to/make/xmlreports/folder -ecn errorcodeanalysis -ecd /path/to/make/errorcodeanalysis/folder -ccn completecodeanalysis -ccd /path/to/make/completecodeanalysis/folder
+
+
+
+# to run scrit for Checkstyle
+# 1st execute this command to make the script runnable
+# chmod u+x init_cks_root_folder.sh
+# 2nd run it
+# bash init_cks_root_folder.sh
+
+# to run scrit for Spotbugs
+# 1st execute this command to make the script runnable
+# chmod u+x init_stbg_root_folder.sh
+# 2nd run it
+# bash init_stbg_root_folder.sh
+
+
+
 
 
 
