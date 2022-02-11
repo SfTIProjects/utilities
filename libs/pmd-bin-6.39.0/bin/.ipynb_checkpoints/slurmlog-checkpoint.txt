@@ -1,0 +1,45 @@
+Using ''.
+Using ''.
+Using ''.
+Using ''.
+Using ''.
+Using ''.
+Using ''.
+Using ''.
+Using ''.
+Using ''.
+Using '/nesi/nobackup/uoo03396/SfTI_project_nobackup/SfTI_Projects/StackOverflow_project/my_codesnippet_analysis/codesnippets_java/codesnippets1900000-1953970.zip'.
+Was passed main parameter 'xml' but no main parameter was definedWas passed main parameter 'xml' but no main parameter was defined
+
+Was passed main parameter 'xml' but no main parameter was defined
+Was passed main parameter 'xml' but no main parameter was defined
+Was passed main parameter 'xml' but no main parameter was defined
+Was passed main parameter 'xml' but no main parameter was defined
+Was passed main parameter 'xml' but no main parameter was defined
+Was passed main parameter 'xml' but no main parameter was defined
+Was passed main parameter 'xml' but no main parameter was defined
+Was passed main parameter 'xml' but no main parameter was defined
+Nov 04, 2021 2:43:12 PM net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+WARNING: Discontinue using Rule name category/java/codestyle.xml/WhileLoopsMustUseBraces as it is scheduled for removal from PMD. PMD 7.0.0 will remove support for this Rule.
+Using ''.
+Using ''.
+Using ''.
+Was passed main parameter 'xml' but no main parameter was defined
+Was passed main parameter 'xml' but no main parameter was defined
+Using ''.
+Using ''.
+Was passed main parameter 'xml' but no main parameter was defined
+Was passed main parameter 'xml' but no main parameter was defined
+Was passed main parameter 'xml' but no main parameter was defined
+Nov 04, 2021 2:43:15 PM net.sourceforge.pmd.PMD encourageToUseIncrementalAnalysis
+WARNING: This analysis could be faster, please consider using Incremental Analysis: https://pmd.github.io/pmd-6.39.0/pmd_userdocs_incremental_analysis.html
+Using ''.
+Using ''.
+Using ''.
+Using ''.
+Was passed main parameter 'xml' but no main parameter was defined
+Was passed main parameter 'xml' but no main parameter was defined
+Was passed main parameter 'xml' but no main parameter was defined
+Was passed main parameter 'xml' but no main parameter was defined
+./run.sh: line 221: 117931 Killed                  java ${HEAPSIZE} ${PMD_JAVA_OPTS} $(jre_specific_vm_options) -cp "${classpath}" "${CLASSNAME}" "$@"
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=23056398.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
